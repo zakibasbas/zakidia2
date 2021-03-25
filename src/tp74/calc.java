@@ -15,7 +15,7 @@ import java.awt.event.ActionListener;
 		   private String Tex,rTex="";
 		   // Constructor to setup GUI components and event handlers
 		   public calc () {
-		      // Set up display panel
+		      
 		      Panel panelDisplay = new Panel(new GridLayout(2, 2) );
 		      Tex="0";
 		      tfDisplay = new TextField(Tex, 20);
