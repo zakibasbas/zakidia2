@@ -30,7 +30,7 @@ import java.awt.event.ActionListener;
 		      Panel panelButtons = new Panel(new GridLayout(4, 4));
 		
 		      btn = new Button[10]; 
-		      int j=0;// Construct an array of 10 numeric Buttons
+		      int j=0;
 		      for(int i=0;i<16;i++)
 		     {  switch(i) {
 		     case 3 : {  Button btnPlus = new Button("+"); 
