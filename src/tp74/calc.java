@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 		   private float Result=0;
 		   private char optTex=' ';
 		   private String Tex,rTex="";
-		   // Constructor to setup GUI components and event handlers
+		   
 		   public calc () {
 		      
 		      Panel panelDisplay = new Panel(new GridLayout(2, 2) );
